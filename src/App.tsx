@@ -20,7 +20,7 @@ function App() {
     <>
         <div className="flex flex-col min-h-screen max-w-screen">
             <Navigation onNavigate={handleScrollTo} refs={{aboutRef, experienceRef, projectsRef}} />
-          <main className="h-full w-full flex-grow max-w-screen">
+          <main className="mt-28 h-full w-full flex-grow max-w-screen">
               <HomeAscii/>
               <About ref={aboutRef}/>
               <Experience ref={experienceRef}/>
