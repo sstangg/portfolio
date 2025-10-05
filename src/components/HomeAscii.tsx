@@ -16,7 +16,7 @@ export default function HomeAscii() {
                 10110	   010     1001      01    0 0        1 1     001     101  <br/>
                 01000	   1010     0101010101     0 0        1 1      10000010   <br/>
             </pre>
-                    <div className="bg-amber-300 border-white border-l-4 w-full flex flex-col items-center justify-center justify-evenly">
+                    <div className="bg-amber-300 border-white border-l-4 w-full flex flex-col items-center justify-center">
                         <div className="m-4 w-2/3 flex justify-between items-center">
                             <h1  className={"text-6xl"}>H</h1>
                             <h1  className={"text-6xl font-bold"}>E</h1>
