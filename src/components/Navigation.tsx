@@ -7,7 +7,7 @@ export default function Navigation({onNavigate, refs}: NavbarProps) {
     return (
         // replace icons with mui
         <>
-        <nav className="left-0 top-0 h-24 w-full font-sans text-3xl flex justify-between items-center p-14">
+        <nav className="bg-yellow-100 opacity-75 fixed left-0 top-0 h-24 w-full font-sans text-3xl flex justify-between items-center p-14">
             <h2 className={"text-indigo-900 font-serif italic tracking-loose text-5xl"}>SOPHIA TANG</h2>
             <button onClick={() => onNavigate(refs.aboutRef)}>
                 About
